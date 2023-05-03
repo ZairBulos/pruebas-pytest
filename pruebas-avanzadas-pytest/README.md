@@ -207,7 +207,7 @@ test_items.py::test_string_is_digit[9] PASSED                            [100%]
 
 Hasta ahora ha visto el uso de un solo argumento y varios elementos para parametrize. Sin embargo, es posible usar varios argumentos.
 
-> 💡 **Sugerencia**
+> 💡 **Sugerencia** <br/>
 > Aunque es posible usar varios argumentos, intente no usar esta característica en exceso, ya que puede hacer que las pruebas sean más difíciles de leer.
 
 Pongamos que hay una prueba que quiere comprobar si un objeto tiene un atributo. Para esta prueba, usaremos la función integrada `hasattr()` de Python. Devuelve un valor booleano en función del atributo del objeto. A continuación se muestra un ejemplo rápido de cómo funciona:
